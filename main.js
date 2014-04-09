@@ -35,7 +35,7 @@ function cancel ()
 }
 
 while (!quit && active) {
-  var transaction_type = prompt(“would you like to make a (w)ithdrawal or (d)eposit or (q)uit”);
+  var transaction_type = prompt('would you like to make a (w)ithdrawal or (d)eposit or (q)uit');
   var amount;
   if (transaction_type === "w" || transaction_type === "d") {
     var action;
